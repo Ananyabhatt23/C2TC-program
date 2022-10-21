@@ -3,20 +3,14 @@ import java.util.*;
 
 public class TryyyyyC {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
 		
 		
 		try {
 			int ab[]= {0,1,2};
-		try {
-			int bc[] = {0,10};
-			int z=ab[0]/bc[1];
-			System.out.println(z);
-		}
-		catch(ArrayIndexOutOfBoundsException aie)
-		{
-			System.out.println("innner try");
-		}
+		int bc[] = {0,10};
+		int z=ab[0]/bc[1];
+		System.out.println(z);
 	}
 		catch(ArithmeticException ae)
 		{
